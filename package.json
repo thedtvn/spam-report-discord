@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {},
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "A project that automates reporting a specific message on Discord.",
   "dependencies": {
     "discord.js-selfbot-v13": "^3.7.1"
