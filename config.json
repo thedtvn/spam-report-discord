@@ -1,0 +1,7 @@
+{
+    "token": "Account_Token_Here",
+    "targetMessageChannelId": "Target_Channel_ID_Here",
+    "targetMessageId": "Target_Message_ID_Here",
+    "reportDelay": 5000,
+    "reportReasons": ["7", "96"]
+}
