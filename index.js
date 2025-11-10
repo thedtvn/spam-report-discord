@@ -5,7 +5,11 @@ const config = JSON.parse(fs.readFileSync('config.json'));
 import { Client } from 'discord.js-selfbot-v13';
 
 const client = new Client({
-    checkUpdate: false
+    checkUpdate: false,
+    rejectOnRateLimit: (ratelimitInfo) => {
+        console.warn("Rate limit hit:", ratelimitInfo);
+        return false; 
+    }
 });
 
 client.on('ready', async () => {
