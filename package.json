@@ -2,11 +2,13 @@
   "name": "spam-report-discord",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {},
   "author": "",
   "license": "MIT",
   "description": "A project that automates reporting a specific message on Discord.",
   "dependencies": {
-    "discord.js-selfbot-v13": "^3.7.1"
+    "debug": "^4.4.3",
+    "discord.js-selfbot-v13": "^3.7.0"
   }
 }
