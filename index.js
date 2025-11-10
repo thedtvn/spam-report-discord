@@ -25,8 +25,8 @@ client.on('ready', async () => {
     let count = 0;              
     while (true) {
         try {
-            await message.report(config.reportReasons);
-            console.log(`Report #${++count} sent successfully.`);
+            const reportId = await message.report(config.reportReasons);
+            console.log(`Report #${++count} | ${reportId} sent successfully.`);
         } catch (error) {
             console.error('Failed to send report:', error);
         }
